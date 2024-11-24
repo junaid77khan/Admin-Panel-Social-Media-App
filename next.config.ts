@@ -13,7 +13,7 @@ const nextConfig: import('next').NextConfig = {
     return [
       {
         source: '/api/data',
-        destination: 'https://api.socialverseapp.com/admin/dashboard', 
+        destination: `${process.env.NEXT_PUBLIC_API_URL}`, 
       },
     ];
   },

@@ -24,7 +24,8 @@ const Sidebar = () => {
     { name: 'Users', path: '/Users' },
     { name: 'Content', path: '/Content' },
     { name: 'Analytics', path: '/Analytics' },
-    { name: 'Block Chain', path: '/Block-Chain' }
+    { name: 'Block Chain', path: '/Block-Chain' },
+    { name: 'Logout', path: '/Logout' },
   ];
 
   return (
