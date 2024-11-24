@@ -106,7 +106,13 @@ const Users = () => {
         <p className="text-red-500">{error}</p>
       ) : (
         <div>
-          <Tabs defaultActiveKey="daily">
+          <Tabs
+            defaultActiveKey="daily"
+            tabBarStyle={{
+              display: 'flex',
+              justifyContent: 'center',
+            }}
+          >
             <TabPane tab="Daily Metrics" key="daily">
               {renderMetrics('daily')}
               {renderGraph('daily')}
@@ -119,6 +125,7 @@ const Users = () => {
               {renderMetrics('allTime')}
             </TabPane>
           </Tabs>
+
         </div>
       )}
     </div>
