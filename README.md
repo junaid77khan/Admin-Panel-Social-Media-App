@@ -6,6 +6,21 @@ Welcome to the Social Media Admin Panel! This project aims to provide an intuiti
 
 This project involves creating a fully functional and responsive admin dashboard for a social media app. The dashboard allows administrators to monitor user activities, track content performance, and view key engagement metrics such as views, likes, comments, and shares. 
 
+## Video Demonstration 📷
+
+https://drive.google.com/file/d/1NXHx2i39_6dQLZ_nglQdlLxJ8w7v-1HB/view?usp=drivesdk
+
+## Images 📷
+
+![image](https://github.com/user-attachments/assets/9e488fc7-4571-4235-8fc5-e782af365fc6)
+
+![image](https://github.com/user-attachments/assets/7e3bdc98-c633-453f-b26d-00d4c7749e61)
+
+![image](https://github.com/user-attachments/assets/cd968d6e-8cd6-4cee-81c1-d3444d6ce12d)
+
+![image](https://github.com/user-attachments/assets/4ba01dcc-c9bf-4928-bb6f-e6a1ee2c9613)
+
+
 ## 🌟 Key Features
 
 - **👤 User Management**:  
