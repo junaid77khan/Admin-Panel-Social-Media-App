@@ -134,7 +134,7 @@ const ContentModeration = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4 text-black">Content Moderation</h1>
+      <h1 className="text-2xl font-bold mb-4 text-center text-black">Content Moderation</h1>
       {loading ? (
         <div className="flex justify-center items-center h-screen">
           <Spin tip="Loading content data..." />

@@ -4,7 +4,7 @@ import type { NextRequest } from 'next/server';
 export function middleware(req: NextRequest) {
   const isAuthenticated = req.cookies.get('isAuthenticated')?.value === 'true';
 
-  if (!isAuthenticated && req.nextUrl.pathname.startsWith('/dashboard')) {
+  if (!isAuthenticated && (req.nextUrl.pathname.startsWith('/dashboard') || req.nextUrl.pathname.startsWith('/Users') || req.nextUrl.pathname.startsWith('/Content') || req.nextUrl.pathname.startsWith('/Analytics') || req.nextUrl.pathname.startsWith('/Block-Chain'))) {
     return NextResponse.redirect(new URL('/login', req.url));
   }
 

@@ -112,7 +112,7 @@ const BlockchainDashboard = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-2xl font-bold mb-4 text-black">Blockchain Dashboard</h1>
+      <h1 className="text-2xl font-bold mb-4 text-black text-center">Blockchain Dashboard</h1>
       {loading ? (
         <div className="flex justify-center items-center h-screen">
           <Spin tip="Loading blockchain data..." />
