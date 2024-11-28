@@ -46,7 +46,7 @@ https://drive.google.com/file/d/1NXHx2i39_6dQLZ_nglQdlLxJ8w7v-1HB/view?usp=drive
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/social-media-admin-dashboard.git
+   git clone https://github.com/junaid77khan/Admin-Panel-Social-Media-App.git
    ```
 2. Install dependencies:
    ```bash
